@@ -23,7 +23,7 @@ const students = [
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
 const members = students.find ((newId)=>{
-return newId.id === 2 ;
+return newId.id === 2;
 });
 
 
