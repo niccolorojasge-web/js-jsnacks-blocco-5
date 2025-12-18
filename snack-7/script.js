@@ -22,7 +22,7 @@ const students = [
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
-const members = students.filter ((newId)=>{
+const members = students.find ((newId)=>{
 return newId.id === 2 ;
 });
 
